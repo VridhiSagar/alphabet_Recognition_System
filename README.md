@@ -3,4 +3,6 @@ Sign language is widely used by individuals with hearing impairment to communica
 
 In this project, we are using SURF (Speeded up Robust Feature) on different algorithms like SVM and Naive Bayes for ASL gesture recognition and comparing the efficiency of  these models.
 
-![]()
+![](Picture1.png)
+
+In this approach, firstly, the signs are captured using a webcam. First the input image is processed and skin masking is done. Then edge detection is used to detect the edge of the hand. After that SURF feature detection is used and then image is classified using SVM and Naive Bayes algorithm and the accuracy of both the algorithms is calculated. We have then applied a deep learning model-CNN and used it to predict the input gesture and the accuracy.
